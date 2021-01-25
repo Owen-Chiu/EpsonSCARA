@@ -1,0 +1,103 @@
+ENVT0100,LM:2021/01/25 15:20:12:007,DS:0000001309,CS:22578,MA:00-FF-21-8C-4B-47,EI:           
+sActiveChild="Program.prg"
+bMdiMaximized=True
+ProgramFile1 {
+	sName="Program.prg"
+	bOpened=True
+	nWinState=2
+	Window {
+		nLeft=-6
+		nTop=30
+		nWidth=672
+		nHeight=450
+	}
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="Points.pts"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=1057
+		nHeight=362
+	}
+}
+sActiveWindow="main.prg"
+CmdWindow {
+	bOpened=True
+	Window {
+		nLeft=47
+		nTop=12
+		nWidth=467
+		nHeight=284
+	}
+	nWinState=0
+}
+RunWindow {
+	bOpened=True
+	Window {
+		nLeft=124
+		nTop=-15
+		nWidth=919
+		nHeight=531
+	}
+}
+IOLabelEditor {
+	bOpened=True
+	Window {
+		nLeft=6
+		nTop=65
+		nWidth=829
+		nHeight=348
+	}
+	nWinState=0
+}
+IOMonitor {
+	bOpened=False
+	Window {
+		nLeft=710
+		nTop=200
+		nWidth=520
+		nHeight=355
+	}
+}
+TaskMgr {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+Macros {
+	bOpened=False
+	Window {
+		nLeft=401
+		nTop=131
+		nWidth=478
+		nHeight=419
+	}
+}
+RobotMgr {
+	bOpened=False
+	Window {
+		nLeft=340
+		nTop=4
+		nWidth=751
+		nHeight=486
+	}
+}
+UserErrorEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}

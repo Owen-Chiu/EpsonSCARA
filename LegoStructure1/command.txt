@@ -1,0 +1,23 @@
+> call Pick
+!!Error: 3804, Specified command cannot be executed from the Command window.
+> call FPick
+!!Error: 3804, Specified command cannot be executed from the Command window.
+> Print "Running Pick Function..."
+		On GripperGrip
+		On GripperLower
+		Wait 0.25
+		Off GripperGrip
+		Wait 0.25
+		Off GripperLower
+		Wait 0.25
+		Print "Done!"
+Done!
+> Home
+!!Error: 2228, Pulse for the home position is not defined.
+> calpls 0,0,0,0
+> calib 1
+> calib 2
+> calib 3
+> calib 4
+> calib 4
+> 

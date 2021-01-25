@@ -1,0 +1,259 @@
+ENVT0100,LM:2020/12/03 14:52:35:650,DS:0000003951,CS:16159,MA:00-FF-21-8C-4B-47,EI:           
+sRCNGVersion="5.4.6"
+InputBitLabels {
+	nNumberOfLabels=29
+	Label1 {
+		nBit=8
+		sLabel="EStopSecondary"
+		sDescription="FRONT DOOR OPEN"
+	}
+	Label2 {
+		nBit=9
+		sLabel="DoorSecondary"
+		sDescription="REAR DOOR OPEN"
+	}
+	Label3 {
+		nBit=10
+		sLabel=""
+		sDescription="FRONT EMO PRESSED"
+	}
+	Label4 {
+		nBit=11
+		sLabel=""
+		sDescription="REAR EMO PRESSED"
+	}
+	Label5 {
+		nBit=12
+		sLabel=""
+		sDescription="SAFETY PLC INPUT 1"
+	}
+	Label6 {
+		nBit=13
+		sLabel=""
+		sDescription="SAFETY PLC INPUT 2"
+	}
+	Label7 {
+		nBit=64
+		sLabel=""
+		sDescription="Quasys #1 Input 1"
+	}
+	Label8 {
+		nBit=65
+		sLabel=""
+		sDescription="Quasys #1 Input 2"
+	}
+	Label9 {
+		nBit=66
+		sLabel=""
+		sDescription="Quasys #1 Input 3"
+	}
+	Label10 {
+		nBit=67
+		sLabel=""
+		sDescription="Quasys #1 Input 4"
+	}
+	Label11 {
+		nBit=68
+		sLabel=""
+		sDescription="Quasys #1 Input 5"
+	}
+	Label12 {
+		nBit=69
+		sLabel=""
+		sDescription="Quasys #2 Input 1"
+	}
+	Label13 {
+		nBit=70
+		sLabel=""
+		sDescription="Quasys #2 Input 2"
+	}
+	Label14 {
+		nBit=71
+		sLabel=""
+		sDescription="Quasys #2 Input 3"
+	}
+	Label15 {
+		nBit=72
+		sLabel=""
+		sDescription="Quasys #2 Input 4"
+	}
+	Label16 {
+		nBit=73
+		sLabel=""
+		sDescription="Quasys #2 Input 5"
+	}
+	Label17 {
+		nBit=74
+		sLabel=""
+		sDescription="Quasys #3 Input 1"
+	}
+	Label18 {
+		nBit=75
+		sLabel=""
+		sDescription="Quasys #3 Input 2"
+	}
+	Label19 {
+		nBit=76
+		sLabel=""
+		sDescription="Quasys #3 Input 3"
+	}
+	Label20 {
+		nBit=77
+		sLabel=""
+		sDescription="Quasys #3 Input 4"
+	}
+	Label21 {
+		nBit=78
+		sLabel=""
+		sDescription="Quasys #3 Input 5"
+	}
+	Label22 {
+		nBit=80
+		sLabel=""
+		sDescription="Gripper #1 Ret"
+	}
+	Label23 {
+		nBit=81
+		sLabel=""
+		sDescription="Gripper #1 Ext"
+	}
+	Label24 {
+		nBit=82
+		sLabel=""
+		sDescription="Gripper #2 Ret"
+	}
+	Label25 {
+		nBit=83
+		sLabel=""
+		sDescription="Gripper #2 Ext"
+	}
+	Label26 {
+		nBit=84
+		sLabel=""
+		sDescription="Gripper #1 Vac"
+	}
+	Label27 {
+		nBit=85
+		sLabel=""
+		sDescription="Gripper #2 Vac"
+	}
+	Label28 {
+		nBit=86
+		sLabel=""
+		sDescription="Robot Pressure Switch"
+	}
+	Label29 {
+		nBit=87
+		sLabel=""
+		sDescription="Conveyor Pressure Switch"
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=17
+	Label1 {
+		nBit=0
+		sLabel="A"
+		sDescription=""
+	}
+	Label2 {
+		nBit=1
+		sLabel="B"
+		sDescription=""
+	}
+	Label3 {
+		nBit=2
+		sLabel="C"
+		sDescription=""
+	}
+	Label4 {
+		nBit=8
+		sLabel=""
+		sDescription="SAFETY PLC OUTPUT 1"
+	}
+	Label5 {
+		nBit=9
+		sLabel=""
+		sDescription="SAFETY PLC OUTPUT 2"
+	}
+	Label6 {
+		nBit=64
+		sLabel=""
+		sDescription="Quasys #1 Input 1"
+	}
+	Label7 {
+		nBit=65
+		sLabel=""
+		sDescription="Quasys #1 Input 2"
+	}
+	Label8 {
+		nBit=66
+		sLabel=""
+		sDescription="Quasys #2 Input 1"
+	}
+	Label9 {
+		nBit=67
+		sLabel=""
+		sDescription="Quasys #2 Input 2"
+	}
+	Label10 {
+		nBit=68
+		sLabel=""
+		sDescription="Quasys #3 Input 1"
+	}
+	Label11 {
+		nBit=69
+		sLabel=""
+		sDescription="Quasys #3 Input 2"
+	}
+	Label12 {
+		nBit=80
+		sLabel="GripperLower"
+		sDescription="Gripper #1 Cyl"
+	}
+	Label13 {
+		nBit=81
+		sLabel=""
+		sDescription="Gripper #2 Cyl"
+	}
+	Label14 {
+		nBit=82
+		sLabel=""
+		sDescription="Gripper #1 Vac"
+	}
+	Label15 {
+		nBit=83
+		sLabel=""
+		sDescription="Gripper #2 Vac"
+	}
+	Label16 {
+		nBit=84
+		sLabel=""
+		sDescription="Gripper #1 Blow"
+	}
+	Label17 {
+		nBit=85
+		sLabel="GripperGrip"
+		sDescription="Gripper #2 Blow"
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=0
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}
